@@ -13,6 +13,9 @@ let targets: [Target] = [
         ],
         exclude: [
             "Info.plist"
+        ],
+        resources: [
+            .process("PrivacyInfo.xcprivacy")
         ]
     )
 ]
